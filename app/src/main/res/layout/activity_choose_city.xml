@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseCityActivity">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="107dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="56dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_home_black_24dp" />
+
+    <EditText
+        android:id="@+id/cityName"
+        android:layout_width="275dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="What city?"
+        android:inputType="textPersonName"
+        android:text="What city?"
+        android:textColor="#5B090808"
+        app:layout_constraintEnd_toStartOf="@+id/ShowResults"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appLogo" />
+
+    <TextView
+        android:id="@+id/CityHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write the city name where you are looking for immobility"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cityName" />
+
+    <Button
+        android:id="@+id/ShowResults"
+        android:layout_width="59dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="#FFFFFF"
+        android:text=">"
+        android:onClick="showResults"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appLogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

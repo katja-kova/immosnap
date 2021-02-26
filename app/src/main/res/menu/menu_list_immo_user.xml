@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Messages"
+        android:icon="@drawable/ic_round_perm_phone_msg_24"
+        app:showAsAction="always"
+        android:id="@+id/menuMessageUser"/>
+
+    <item android:title="Favorite"
+        android:icon="@drawable/ic_outline_favorite_border_24"
+        app:showAsAction="always"
+        android:id="@+id/menuFavorite"/>
+
+</menu>

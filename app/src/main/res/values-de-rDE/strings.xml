@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">immosnap</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="question">Wer bist Du?</string>
+    <string name="agentUser">Immomakler</string>
+    <string name="renterUser">Immosuchende</string>
+    <string name="sale">zu verkaufen</string>
+    <string name="rent">zu vermieten</string>
+    <string name="title">Titel</string>
+    <string name="price">Preis</string>
+    <string name="room">Zimmer</string>
+    <string name="address">Adresse</string>
+    <string name="commission">Maklerprovision</string>
+    <string name="description">Beschreibung</string>
+    <string name="newOffer">Angebot Aufgeben</string>
+    <string name="newOffer_Toast">Neues Angebot wurde hinzugefügt!</string>
+</resources>

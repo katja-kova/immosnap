@@ -1,0 +1,26 @@
+[
+  {
+    "username": "TestAgent",
+    "email": "test@agent",
+    "password": "1234",
+    "renter": false,
+    "messageList": [],
+    "selectedImmos": []
+  },
+  {
+    "username": "TestUser",
+    "email": "test@user",
+    "password": "1234",
+    "renter": true,
+    "messageList": [],
+    "selectedImmos": []
+  },
+  {
+    "username": "BestAgent",
+    "email": "test@best",
+    "password": "1234",
+    "renter": false,
+    "messageList": [],
+    "selectedImmos": []
+  }
+]

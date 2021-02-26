@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/titleSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Create an Account"
+        android:textColor="#D76D77"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:background="#1B000000"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleSignUp" />
+
+    <EditText
+        android:id="@+id/UserPassword"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:background="#1B000000"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserEmail" />
+
+    <EditText
+        android:id="@+id/UserEmail"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:background="#1B000000"
+        android:ems="10"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserName" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="44dp"
+        android:background="#6ED76D77"
+        android:text="Sign Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserPassword" />
+
+    <TextView
+        android:id="@+id/TermsOfServicesText"
+        android:layout_width="262dp"
+        android:layout_height="33dp"
+        android:text="By pressing Sign Up you agree with the Terms of Services and Privacy Policy"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignUp" />
+
+    <Button
+        android:id="@+id/AlreadyUser"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:onClick="moveToSignIn"
+        android:text="Already have an account?"
+        android:textColor="#6ED76D77"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TermsOfServicesText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

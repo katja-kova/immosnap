@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Messages"
+        android:icon="@drawable/ic_outline_message_24"
+        app:showAsAction="always"
+        android:id="@+id/menuMessage"/>
+
+    <item android:title="New Immo"
+        android:icon="@drawable/ic_round_add_circle_outline_24"
+        app:showAsAction="always"
+        android:id="@+id/menuNewOffer"/>
+
+</menu>

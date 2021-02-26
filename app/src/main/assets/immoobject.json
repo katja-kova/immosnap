@@ -1,0 +1,62 @@
+[
+	{
+		"img": "rent1",
+		"title": "1 bed flat to rent",
+		"price": 800,
+		"address": "Jungmannstrasse 89",
+		"toRent": true,
+		"rooms": 1,
+		"description": "The property comprises:- communal entrance with security entry system, hallway with storage cupboard, lounge, modern fitted kitchen with integral white goods, one double sized bedroom and bathroom. The property also benefits from electric heating, double glazing, 2 x balconies and allocated parking The property is available from 6th August 2020 on an furnished basis.",
+		"commission": 0
+	},
+	{
+		"img": "rent2",
+		"title": "3 bed duplex for sell",
+		"price": 120000,
+		"address": "Fressgass 9",
+		"toRent": false,
+		"rooms": 5,
+		"description": "Situated In the popular Findon Valley, close to local amenities and doctors surgery within 0.3 miles, also providing easy access to the A24 & A27. Worthing town centre with its comprehensive shopping amenities, restaurants, pubs, cinemas, theatres and leisure facilities is approximately 3 miles away. The nearest station is West Worthing which is approximately 2 miles away. Bus services run nearby.",
+		"commission": 2
+	},
+	{
+		"img": "rent3",
+		"title": "detached house for sale",
+		"price": 250000,
+		"address": "Abbay Road 2",
+		"toRent": false,
+		"rooms": 4,
+		"description": "A rarely available and beautifully presented four bedroom Victorian townhouse located within walking distance to both the town centre and two mainline train stations with links in to the city. Arranged over four floors this character family home offers flexible accommodation with a high specification throughout to include a luxury lower ground floor level kitchen/family room, living room with feature original open fireplace, dining room and both luxury first floor bathroom and additional shower room and downstairs cloakroom.",
+		"commission": 3
+	},
+	{
+		"img": "rent4",
+		"title": "room to rent",
+		"price": 500,
+		"address": "Westend 89",
+		"toRent": true,
+		"rooms": 1,
+		"description": "Lovely double bedroom in a 3 bed flat available from the 5th of August. The flat is located on the first floor, positioned a 10 minute walk from East Finchley Station and complete with free parking outside. The area is safe and close to local amenities.",
+		"commission": 0
+	},
+	{
+		"img": "rent5",
+		"title": "2 bed flat to rent",
+		"price": 1500,
+		"address": "Granville Road 89",
+		"toRent": true,
+		"rooms": 2,
+		"description": "The property benefits from 2 good size bedrooms, open plan living room and fitted kitchen, large bathroom, wooden floors, central heating, and double glazed windows. Viewings are available now time so please register your interest now to avoid disappointment.",
+		"commission": 1
+	},
+	{
+		"img": "rent6",
+		"title": "Studio to rent",
+		"price": 1200,
+		"address": "Patton Studios 126",
+		"toRent": true,
+		"rooms": 1,
+		"description": "Studio flat - in modern development - close to Colindale Underground Station & all local shops of Colindale High- Street. This studio apartment, on the ground floor has been finished to a very high standard, offering large bedroom with fitted wardrobes, walk in shower & good size modern kitchen. The price also includes most bills (water, electric, gas, internet) Available now & fully furnished. ",
+		"commission": 3
+	}
+]
