@@ -60,18 +60,6 @@ public class SignInActivity extends AppCompatActivity {
         super.onRestart();
         load(this.getApplicationContext());
     }
-/*
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        if (requestCode == MY_PERMISSIONS_STORAGE && grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
-            load(this.getApplicationContext());
-        }
-
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-    }
-
- */
 
     public void login() {
 
