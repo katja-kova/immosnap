@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
                 {Manifest.permission.WRITE_EXTERNAL_STORAGE};
         ActivityCompat.requestPermissions(this, permissions,
                 MY_PERMISSIONS_STORAGE);
-
     }
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
@@ -58,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void switchLanguage() {
-
 
         Locale current = ConfigurationCompat.getLocales(getResources().getConfiguration()).get(0);
         if(current.getLanguage()=="de"){
@@ -81,14 +79,14 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = getSharedPreferences("Settings", MODE_PRIVATE).edit();
         editor.putString("Language", lang);
         editor.apply();
-
-
     }
 
     public void loadLocale(){
+        
         SharedPreferences prefs = getSharedPreferences("Settings", Activity.MODE_PRIVATE);
         String language = prefs.getString("Language", "");
         setLocale(language);
+        
     }
 
     public void createAgentUser(View view) {
